@@ -108,19 +108,19 @@ const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
       var ucapanWaktu = "Good night";
     }
     if (time2 < "19:00:00") {
-      var ucapanWaktu = "Good evening🌞";
+      var ucapanWaktu = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🌞";
     }
     if (time2 < "18:00:00") {
-      var ucapanWaktu = "Good afternoon🌄";
+      var ucapanWaktu = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ🌝";
     }
     if (time2 < "15:00:00") {
-      var ucapanWaktu = "Good afternoon☀️";
+      var ucapanWaktu = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ🌝️";
     }
     if (time2 < "11:00:00") {
-      var ucapanWaktu = "Good morning🌅";
+      var ucapanWaktu = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🌚";
     }
     if (time2 < "05:00:00") {
-      var ucapanWaktu = "Good night🌃";
+      var ucapanWaktu = "ɢᴏᴏᴅ ɴɪɢʜᴛ🌃";
     }
  // BATAS \\
 menusimpel = false
@@ -139,9 +139,9 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "994401125271"; 
-owner = "994401125271"; 
-fakeyoi = "SK DEVIL SER"; 
+targetpc = "994401307215"; 
+owner = "994401307215"; 
+fakeyoi = "ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,7 +150,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "BfYLA4wOt7Ag5reAVWo6T6m3FeG",
 zeksApikey = "Alphabott",
-nomorowner1 = "@994401125271"; 
+nomorowner1 = "@994401307215"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -349,7 +349,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`994401125271@s.whatsapp.net`]
+    const ownerNumber = [`994401307215@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -451,7 +451,7 @@ const math = (teks) => {
            return Math.floor(teks)
        }
 /*const reply = (teks) => {
-			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 359996400, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/994401125271?text=hello`}}})
+			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 359996400, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/994401307215?text=hello`}}})
 		}*/
     const sendMess = (hehe, teks) => {
       xeon.sendMessage(hehe, teks, text);
@@ -504,7 +504,7 @@ const ftrol = {
                         },
        message: {
                     orderMessage: {
-                            itemCount : 123,
+                            itemCount : 359996400,
                             status: 1,
                             surface : 1,
                             message: `${ucapanWaktu} ${pushname}`, //Kasih namalu
@@ -520,7 +520,7 @@ const ftroli2 = {
                         },
        message: {
                     orderMessage: {
-                            itemCount : 123,
+                            itemCount : 359996400,
                             status: 1,
                             surface : 1,
                             message: `${ucapanWaktu} ${pushname}`, //Kasih namalu
@@ -939,7 +939,7 @@ const reply = (teks) => {
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 359996400, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/994401125271?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 359996400, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/994401307215?text=hello`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -962,12 +962,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/994401125271`,
+                "body": `wa.me/994401307215`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/994401125271`,
+                "mediaUrl": `wa.me/994401307215`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/994401125271`,
+                "sourceUrl": `wa.me/994401307215`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1139,7 +1139,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "994401125271@s.whatsapp.net";
+        let id_vote = sender ? sender : "994401307215@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1171,7 +1171,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "994401125271@s.whatsapp.net";
+        let id_vote = sender ? sender : "994401307215@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1342,7 +1342,7 @@ const serialUser = createSerial(18)
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️ᴍᴇɴᴜ`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'SK', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
               xeon.relayWAMessage(prep)
@@ -1369,9 +1369,9 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
        txtt =`ʜɪ ʙʀᴏ ᴛʜɪs ɪs ī.ᴀᴍ ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩ ᴍᴇɴᴜ ${pushname} 👋\n\nɪғ ᴛᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍᴏᴅ ᴡʜᴀᴛsᴀᴘᴘ & ʙᴜᴛᴛᴏɴs ᴅᴏᴇsɴᴛ sʜᴏᴡ, ᴛʏᴘᴇ #ᴀʟʟᴍᴇɴᴜ`
 
                buttons = [{buttonId:`allmenu`, 
-               buttonText:{displayText: 'ᴍᴇɴᴜ'},type:1},
-               {buttonId:`owner`,buttonText:{displayText:'ᴄʀᴇᴀᴛᴏʀ'},type:1},
-               {buttonId:`command`,buttonText:{displayText:'ʟɪsᴛ ᴍᴇɴᴜ'},type:1}]
+               buttonText:{displayText: 'ᴍᴇɴᴜ🥂'},type:1},
+               {buttonId:`owner`,buttonText:{displayText:'ᴄʀᴇᴀᴛᴏʀ💝'},type:1},
+               {buttonId:`command`,buttonText:{displayText:'ʟɪsᴛ ᴍᴇɴᴜ🦋'},type:1}]
 
 
                imageMsg = (await xeon.prepareMessageMedia(fs.readFileSync(`./stik/oksip.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync(`./stik/oksip.jpeg`)})).imageMessage
@@ -1406,8 +1406,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "994401125271@s.whatsapp.net"
-        dtod = '994401125271'
+        ptod = "994401307215@s.whatsapp.net"
+        dtod = '994401307215'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1623,12 +1623,12 @@ Just Learn to Make Bots 😌
  
 𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
 `
-sendButLocation(from, `${menu}`,`𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'ʟɪsᴛ ᴍᴇɴᴜ'},type:1},{buttonId:`credit`,buttonText:{displayText:'ᴛʜᴀɴᴋs ᴛᴏ'},type:1},{buttonId:`script`,buttonText:{displayText:'sᴄʀɪᴘᴛ'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+sendButLocation(from, `${menu}`,`ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩ @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'ʟɪsᴛ ᴍᴇɴᴜ'},type:1},{buttonId:`credit`,buttonText:{displayText:'ᴛʜᴀɴᴋs ᴛᴏ'},type:1},{buttonId:`script`,buttonText:{displayText:'sᴄʀɪᴘᴛ'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
 break
 case 'credit':
-   dtod = '994401125271'
-   dtod1 = '994401125271'
+   dtod = '994401307215'
+   dtod1 = '994401307215'
    dtod2 = '380945798078'
    dtod3 = ''
    dtod4 ='0'
@@ -1680,7 +1680,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Type ${prefix}bugreport [feature] [Whats the Error]`) 
               teks = args.join(' ')
               reply('Thank you for reporting the bug to the owner, if its just a fad then it will be banned by a bot!')
-              xeon.sendMessage('994401125271@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              xeon.sendMessage('994401307215@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
 case 'restart':
@@ -1777,7 +1777,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('*ᴀɴᴛʜᴀᴅᴀ sᴄʀɪᴘᴛ ᴠᴇɴᴏ ɴᴇɴᴋ🤤*\nɴᴏᴋᴋɪʏɪʀᴜɴɴᴏ ᴜᴍʙᴀᴛʜᴇ ᴜʟʟᴏ🤭')
+  reply('*ɴᴏᴋᴋɪʏɪʀᴜɴɴᴏ ᴜᴍʙᴀᴛʜᴇ ᴜʟʟᴏ🤭*\nᴏɪɪ ī.ᴀᴍ/ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩💝')
 break
    
 case 'owner':
@@ -2013,7 +2013,7 @@ break
 case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
- buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
+ buttonText: 'ʟɪsᴛ ᴍᴇɴᴜ',
  footerText: 'ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩',
  description: `ʜɪ @${sender.split('@')[0]}, ʜɪ ʙʀᴏ ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩ ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ`,
  sections: [
@@ -2086,7 +2086,7 @@ menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
 `
-sendButMessage(from, menu, `ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
+sendButMessage(from, menu, `ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2141,7 +2141,7 @@ menu = `シ𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎シ︎
 
 ㋛${prefix}group [open/close(button)]
 `
-sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
+sendButMessage(from, menu, ` ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2223,7 +2223,7 @@ menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 ㋛${prefix}delimage <image name>
  
 ㋛${prefix}imagelist`
-sendButMessage(from, menu, `ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
+sendButMessage(from, menu, `ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2246,7 +2246,7 @@ menu = `シ︎𝘜𝘱𝘴𝘸 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}upswlocation
 `
-sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
+sendButMessage(from, menu, ` ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2335,7 +2335,7 @@ menu = `シ︎𝘖𝘵𝘩𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}gimage <query>
 `
-sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
+sendButMessage(from, menu, ` ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2384,7 +2384,7 @@ menu = `シ︎𝘔𝘢𝘬𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}waifu
 `
-sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
+sendButMessage(from, menu, ` ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2423,7 +2423,7 @@ case 'catalog':
         },
         "businessOwnerJid": sender
       },
-      "footerText": " ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩"
+      "footerText": " ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩⁩"
     }
   }, {quoted: freply})
   xeon.relayWAMessage(list, {waitForAck: true})
@@ -2449,7 +2449,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "*ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʟɪɴᴋ ʙᴇʟᴏᴡ*\nhttps://chat.whatsapp.com/I8lMlox6meJJyQ5t82bFqf", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 359996400, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "*ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʟɪɴᴋ ʙᴇʟᴏᴡ*\nhttps://github.com/salmansir/salman-SIR", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 359996400, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -3930,7 +3930,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('╭──────────────────╮\n   ī.ᴀᴍ ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩ \n╭──────────────────╯\n│  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩\n│  ▢ *ᴏᴡɴᴇʀ* :  ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩\n│  ▢ *ᴠᴇʀsɪᴏɴ* : 1.0\n│  ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ\n│  ▢ *ᴘʀᴇғɪx* : [# .]\n│\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│        ©994401125271\n│\n│  ❑ *ɢɪᴛʜᴜʙ ʟɪɴᴋ* :\n│  https://github.com/salmansir/salman-SIR\n│  \n│  ❑ *ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ* :\n│  https://github.com/salmansir/salman-SIR\n│\n│  ❑ *ʙᴏᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ*\n│  https://chat.whatsapp.com/I8lMlox6meJJyQ5t82bFqf\n│\n│  ❑ *ᴏᴡɴᴇʀ* : \n│  wa.me/+994401125271\n│\n╰──────────────────╯​')
+  reply('╭──────────────────╮\n   ī.ᴀᴍ ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩ \n╭──────────────────╯\n│  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩\n│  ▢ *ᴏᴡɴᴇʀ* :  ꪶ͢sᴀʟᴍᴀɴ ᴏғᴄꫂ⁩\n│  ▢ *ᴠᴇʀsɪᴏɴ* : 1.0\n│  ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ\n│  ▢ *ᴘʀᴇғɪx* : [# .]\n│\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│        ©994401307215\n│\n│  ❑ *ɢɪᴛʜᴜʙ ʟɪɴᴋ* :\n│  https://github.com/salmansir/salman-SIR\n│  \n│  ❑ *ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ* :\n│  https://github.com/salmansir/salman-SIR\n│\n│  ❑ *ʙᴏᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ*\n│  https://chat.whatsapp.com/I8lMlox6meJJyQ5t82bFqf\n│\n│  ❑ *ᴏᴡɴᴇʀ* : \n│  wa.me/+994401307215\n│\n╰──────────────────╯​')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -4220,7 +4220,7 @@ break
                  break
 			      case "mode":
         if (!mek.key.fromMe) return;
-        sendButMessage(from, `MODE SELF/PUBLIC`, `Please choose one`, [
+        sendButMessage(from, `𝑺𝑬𝑳𝑭/𝑷𝑼𝑩𝑳𝑰𝑪`, `Please choose one`, [
           {
             buttonId: `self`,
             buttonText: {
@@ -4314,7 +4314,7 @@ case "intake3": // by xeon
         break;
       case "grup":
         if (!mek.key.fromMe) return;
-        sendButMessage(from, `GROUP SETTING`, `Please choose one`, [
+        sendButMessage(from, `GROUP SETTING`, `ᴄʜᴏᴏsᴇ ᴀɴʏ ᴏɴᴇ!`, [
           {
             buttonId: `opengc`,
             buttonText: {
@@ -5803,19 +5803,19 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
         xeon.sendMessage(from, mat, MessageType.extendedText, anu);
         break;
       case "public":
-        if (!mek.key.fromMe) return reply("This feature is only for the owner 🗿");
+        if (!mek.key.fromMe) return reply("ᴏɴʟʏ ғᴏʀ sᴋ ᴅᴇᴠɪʟ sᴇʀ 💝");
         if (banChats === false) return;
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = false;
-        fakeyt(`「 *PUBLIC-MODE* 」`);
+        fakeyt(`「 ᴍᴏᴅᴇ ᴄʜᴀɴɢᴇᴅ ᴛᴏ ᴘᴜʙʟɪᴄ 」`);
         break;
       case "self":
-        if (!mek.key.fromMe) return reply("This feature is only for the owner 🗿");
+        if (!mek.key.fromMe) return reply("ᴏɴʟʏ ғᴏʀ sᴋ ᴅᴇᴠɪʟ sᴇʀ 💝");
         if (banChats === true) return;
         uptime = process.uptime();
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = true;
-        fakeyt(`「 *SELF-MODE* 」`);
+        fakeyt(`「 ᴍᴏᴅᴇ ᴄʜᴀɴɢᴇᴅ ᴛᴏ sᴇʟғ 」`);
         break;
       case "hidetag":
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak});

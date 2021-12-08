@@ -18,7 +18,7 @@ blocked = [];
 const { color } = require('./lib/color')
 const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
     if (time2 < "24:59:00") {
-      var ucapanWaktu = "Good night";
+      var ucapanWaktu = "ɢᴏᴏᴅ ɴɪɢʜᴛ";
     }
     if (time2 < "19:00:00") {
       var ucapanWaktu = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🌞";
